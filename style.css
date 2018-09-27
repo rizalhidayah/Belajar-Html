@@ -1,0 +1,34 @@
+#menu_web{
+	background: yellow;
+	font-size: 20px;
+	height: 35px;
+
+}
+
+.menu{
+
+	color: red;
+}
+
+body{
+	/*
+	background-color: #d71f5a ;
+	background-image:url("mobil.jpg");
+	background-attachment: fixed;*/
+
+	background: #d71f5a url("mobil.jpg") fixed;
+}
+
+
+h2{
+	text-align: center;
+	Color: red;
+	font-size: 30px;
+}
+
+#paragraf{
+	text-align: justify;
+}
+h1{
+	text-align: center;
+}
