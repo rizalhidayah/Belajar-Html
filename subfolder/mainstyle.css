@@ -1,0 +1,70 @@
+ .menu{
+
+  background-color: grey;
+
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px
+}
+h2{
+
+text-align: justify;
+font-size: 20px;
+font-weight: bold;
+
+}
+body{
+  background-color: green;
+  background: url("../mobil.jpg") fixed;
+}
+
+/*ada 4 kondisi pada link*/
+
+/*1. Kondisi biasa*/
+
+.ling:link{
+  background: grey;
+  color:white ;
+}
+
+/*2. Kondisi setelah dikunjungi*/
+.ling:visited{
+background: black;
+}
+/*1. Kondisi hover mouse berada di atasnya*/
+.ling:hover{
+  background: green;
+
+}
+/*1. Kondisi sedang di klik*/
+.ling:active{
+  background: white;
+
+}
+#teks_pendek{
+font-size: 35px
+font-weight:bold;
+background: yellow;
+width:50%;
+height: 100px;
+
+}
+a{
+  display: inline-block;
+  /*width: 50px;
+  height: 50px;*/
+  text-decoration: none;
+
+  border: 5px solid white;
+  padding: 10px 5px;
+}
+#menu_wrap{
+  
+  margin-top: 10;
+  margin-left: 15px;
+
+
+}
